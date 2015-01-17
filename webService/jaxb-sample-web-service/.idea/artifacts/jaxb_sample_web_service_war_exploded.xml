@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jaxb-sample-web-service:war exploded">
+    <output-path>$PROJECT_DIR$/target/employee-service</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jaxb-sample-web-service/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jaxb-sample-web-service" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
